@@ -9,6 +9,7 @@ struct Node{
         left = right = NULL;
     }
 };
+// input
 void pre(Node* node){
     if(node == NULL){
         return;
@@ -45,4 +46,5 @@ int main(){
     post(root);
     cout << endl;
     return 0;
+
 }
