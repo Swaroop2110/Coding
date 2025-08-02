@@ -47,7 +47,7 @@ int main() {
     int capacity;
      cout << "Enter the capacity of the binary tree: ";
      cin >> capacity;
-    
+    // input
     BinaryTree bt(capacity);
     int choice, value;
 
@@ -92,3 +92,4 @@ int main() {
 
     return 0;
 }
+
