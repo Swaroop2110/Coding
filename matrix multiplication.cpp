@@ -15,6 +15,7 @@ int main(){
     }
     int** B = (int**)malloc(m * sizeof(int*));
     for(int i = 0 ; i < n; i++){
+        // input
         B[i] = (int*)malloc(p * sizeof(int));
     }
     int** C =  (int**)malloc(m * sizeof(int*));
@@ -51,5 +52,6 @@ int main(){
         cout << endl;
     }
     return 0;
+
 
 }
